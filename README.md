@@ -83,11 +83,6 @@ Your maintenance calories are: 2885.56 kcal
 
 ---
 
-## 🛠️ Future Improvements
-
--
-
----
 
 ## 📜 License
 
