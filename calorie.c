@@ -39,10 +39,10 @@ int main() {
 
     printf("\nSelect your activity level:\n");
     printf("1. Sedentary (Little to no exercise)\n");
-    printf("2. Lightly Active (Light exercise 1-3 days/week)\n");
-    printf("3. Moderately Active (Moderate exercise 3-5 days/week)\n");
-    printf("4. Very Active (Hard exercise 6-7 days/week)\n");
-    printf("5. Super Active (Intense daily exercise or physical job)\n");
+    printf("2. Lightly Active (Light exercise 1-3 days/week )\n");
+    printf("3. Moderately Active (Moderate exercise 3-5 days/week (LIIT))\n");
+    printf("4. Very Active (Hard exercise 6-7 days/week (HIIT))\n");
+    printf("5. Super Active (Intense daily exercise)\n");
     printf("Enter your choice (1-5): ");
     scanf("%d", &choice);
 
@@ -75,6 +75,12 @@ int main() {
         maintenanceCalories = female(age, height, weight, activity_lv);
         printf("\nYour maintenance calories are: %.2f kcal\n", maintenanceCalories);
     }
+
+    printf("For lean bulk: %.2f kcal\n",maintenanceCalories+200);
+    printf("For heavy bulk: %.2f kcal\n",maintenanceCalories+500);
+    printf("For mind weight loss: %.2f kcal\n",maintenanceCalories-200);
+    printf("For intense weightloss: %.2f kcal\n",maintenanceCalories-500);
+
 
     return 0;
 }
