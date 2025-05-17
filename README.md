@@ -84,9 +84,7 @@ Your maintenance calories are: 2885.56 kcal
 ---
 
 
-## 📜 License
 
-This project is **open-source**. Feel free to modify and improve! 🚀
 
 👨‍💻 Built with ❤️!
 
